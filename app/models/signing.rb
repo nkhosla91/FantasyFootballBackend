@@ -1,4 +1,4 @@
 class Signing < ApplicationRecord
     belongs_to :team
-    belongd_to :player 
+    belongs_to :player 
 end

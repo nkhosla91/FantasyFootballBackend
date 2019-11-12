@@ -5,9 +5,6 @@ class CreatePlayers < ActiveRecord::Migration[6.0]
       t.string :position
       t.string :teamAbbr
       t.integer :seasonPts
-      t.integer :seasonProjectedPts
-      t.integer :weekPts
-      t.integer :weekProjectedPts
     end
   end
 end
